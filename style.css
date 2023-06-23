@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.back {
+  display: inline-flex;
+  flex-direction: row;
+  background-color: #050210;
+  width: 90%;
+  margin-top: 0.5rem;
+
+  flex-wrap: wrap;
+}
+
+h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+p {
+  color: rgb(118, 112, 112);
+  font-size: 0.8rem;
+}
+
+.sizeDeploy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.sizeDeploy img {
+  padding-bottom: 14%;
+  padding: 1rem 0.2rem 4rem 0.2rem;
+}
+.responsive {
+  width: 60%;
+  height: auto;
+}
+
+.responsive1 {
+  width: 80%;
+  height: auto;
+}
+.sizeNetwork img {
+  /* padding-bottom: 16%; */
+  padding: 1.8rem 0.2rem 4rem 2rem;
+}
+.adjustPadd {
+  padding: 0rem 2rem 0.5rem 2rem;
+}
+
+.adjustPadd1 {
+  padding: 0rem 2rem 0.5rem 2rem;
+}
+
+.adjustPadd div:hover {
+  background: #584b4f;
+  transform: translateY(-10px);
+}
+
+.Hov .adjustPadd1:hover {
+  background: #584b4f;
+  transform: translateY(-5px);
+}
+
+@media screen and (min-device-width: 767px) and (max-device-width: 988px) {
+  .sizeNetwork img {
+    padding-bottom:0.1rem;
+    padding: 1.8rem 0.2rem 4rem 2rem;
+  }
+
+}
